@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Django default" uuid="4ac7fef2-e973-4034-b4bf-412900baebc4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [2]" uuid="ee045bae-6790-4778-82e5-5fbfe42ffbd7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [3]" uuid="0f12cf82-1c92-4c2a-ba0e-fc0968fa260d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [4]" uuid="d42328ce-49e9-4e70-a15a-cff552bd6c8b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [5]" uuid="c36eaefb-0b0c-48ac-af3c-4bd556fc55b7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [6]" uuid="0aed3c1d-436e-4ef7-a886-749bca1cecf6">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [7]" uuid="e4af30d7-d876-41b3-984e-2b249441e895">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default [8]" uuid="cbe91995-13a7-4e50-b6ed-5f200f97de16">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/store/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/store</jdbc-url>
+    </data-source>
+  </component>
+</project>

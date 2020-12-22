@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'orderapp',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +78,12 @@ WSGI_APPLICATION = 'store.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'store',
+        'USER':'postgres',
+        'PASSWORD':'H.w94uTmv1',
+        'HOST':'localhost',
+        'PORT':'5432',
     }
 }
 
@@ -104,9 +110,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fa-ir'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'asia/tehran'
 
 USE_I18N = True
 
@@ -118,4 +124,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+
+
+#ckeditor setting
+STATIC_ROOT=os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
+
+#ckeditor
+CKEDITOR_BASEPATH='/static/ckeditor/ckeditor'
+CKEDITOR_UPLOAD_PATH="uploads"
